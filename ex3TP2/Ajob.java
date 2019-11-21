@@ -1,4 +1,4 @@
-package ex3TP2;
+// package ex3TP2;
 
 public class Ajob implements Runnable {
 	Valeur myVal;
@@ -13,7 +13,5 @@ public class Ajob implements Runnable {
 			 myVal.add(i);
 			 System.out.println(myVal.toString());
 		}
-		
-
 	}
 }

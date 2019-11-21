@@ -1,4 +1,4 @@
-package TP2;
+// package TP2;
 
 public class Compter implements Runnable{
 	
@@ -7,7 +7,7 @@ public class Compter implements Runnable{
 	String nom;
 	
 	Compter(String nm,int direction){
-		nom=nm;
+		nom = nm;
 		this.direction = direction;
 	}
 	
@@ -18,10 +18,10 @@ public class Compter implements Runnable{
 			}
 	}
 	public static void main(String[] args) {
-		Runnable Compter1= new Compter("t1",1);
+		Runnable Compter1 = new Compter("t1",1);
 		new Thread(Compter1).start();
 		
-		Runnable Compter2= new Compter("t2",-1);
+		Runnable Compter2 = new Compter("t2",-1);
 		new Thread(Compter2).start();
 		
 	}

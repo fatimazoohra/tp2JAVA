@@ -1,4 +1,4 @@
-package ex3TP2;
+// package ex3TP2;
 
 public class Valeur  {
 	int valeur;

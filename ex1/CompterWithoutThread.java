@@ -1,13 +1,13 @@
 // package TP2;
 
-public class CompterThread extends Thread {
+public class CompterWithoutThread {
 
 		int direction;
-		int max = 10;
+		int max = 20;
 		String nom;
 		
-		CompterThread (String nm,int direction){
-			nom=nm;
+		CompterWithoutThread (String nm,int direction){
+			nom = nm;
 			this.direction = direction;
 		}
 		
@@ -18,8 +18,8 @@ public class CompterThread extends Thread {
 		}
 		public static void main(String[] args) {
 			
-			new CompterThread("t1",1).start();
-			new CompterThread("t2",-1).start();
+			new CompterWithoutThread("t1",1).run();
+			new CompterWithoutThread("t2",-1).run();
 		}
 
 	}

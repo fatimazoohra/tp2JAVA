@@ -1,10 +1,10 @@
 // package ex2TP2;
 
-public class Compteur extends Thread {
+public class CompteurRunnable implements Runnable {
 
 	int maxValue;
 	String nom;
-	Compteur(String n,int maxVal){
+	CompteurRunnable(String n,int maxVal){
 		maxValue=maxVal;
 		nom=n;
 	}
