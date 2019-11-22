@@ -1,4 +1,5 @@
 
+
 import java.util.ArrayList;
 
 public class Parking {
@@ -22,7 +23,9 @@ public class Parking {
 	public void quitter(Voiture v){
 		voitures.remove(v);
 		System.out.println("la voiture "+v.id+" est sortie.");
-	}
+
+
+
 
 	public void AfficherListeVoitures(){
 		for(int i=0; i<voitures.size(); i++){
