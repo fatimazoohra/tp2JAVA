@@ -24,7 +24,7 @@ public class Parking {
 		voitures.remove(v);
 		System.out.println("la voiture "+v.id+" est sortie.");
 
-
+	}
 
 
 	public void AfficherListeVoitures(){
